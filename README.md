@@ -15,7 +15,11 @@ Promise-based OAuth 1 client for node.js based on the [node-auth](https://github
 
 # Usage
 
+Sample usage from a project using the ODesk API below.
+
 ```js
+var OAuth1Client = require('oauth-1-client');
+
 var odeskClient = new OAuth1Client({
     key: odeskConfig.apiKey,
     secret: odeskConfig.sharedSecret,
