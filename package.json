@@ -1,0 +1,25 @@
+{
+  "name": "oauth-1-client",
+  "version": "0.0.1",
+  "description": "Promise-based OAuth 1 client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emertechie/oauth-1-client"
+  },
+  "keywords": [
+    "oauth",
+    "oauth1",
+    "promise"
+  ],
+  "author": "emertechie@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "extend-error": "0.0.2",
+    "oauth": "^0.9.12",
+    "promise": "^6.1.0"
+  }
+}
