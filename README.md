@@ -15,7 +15,7 @@ Promise-based OAuth 1 client for node.js based on the [node-auth](https://github
 
 # Usage
 
-```
+```js
 var odeskClient = new OAuth1Client({
     key: odeskConfig.apiKey,
     secret: odeskConfig.sharedSecret,
@@ -32,7 +32,7 @@ Each method on the API returns back a Javascript promise object.
 
 If using a version of node which supports ES6 generators, a sample usage might look like:
 
-```
+```js
 var response = yield odeskClient.requestToken();
 
 var tempCredentials = {
@@ -46,7 +46,7 @@ var tempCredentials = {
 
 Then in your OAuth callback:
 
-```
+```js
 var verifier = (get it from URL or request header depending on your provider);
 var prevCredentials = (load previously stored credentials from above);
 var response = yield odeskClient.accessToken(prevCredentials.token, prevCredentials.tokenSecret, verifier);
