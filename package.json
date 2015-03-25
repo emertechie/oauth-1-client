@@ -1,6 +1,6 @@
 {
   "name": "oauth-1-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Promise-based OAuth 1 client",
   "main": "lib/index.js",
   "scripts": {
