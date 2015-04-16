@@ -11,7 +11,8 @@ npm install oauth-1-client
 
 # Overview
 
-Promise-based OAuth 1 client for node.js based on the [node-auth](https://github.com/ciaranj/node-oauth) library.
+Promise-based OAuth 1 client for node.js based on the [node-auth](https://github.com/ciaranj/node-oauth) library
+and client code from [etsy-js](https://github.com/GeorgiCodes/etsy-js).
 
 # Usage
 
