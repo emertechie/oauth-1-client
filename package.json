@@ -4,7 +4,7 @@
   "description": "Promise-based OAuth 1 client",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha \"tests/**/*Tests.js\""
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
     "oauth": "^0.9.12",
     "promise": "^6.1.0",
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
   }
 }
